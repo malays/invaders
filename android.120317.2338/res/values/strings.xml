@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="invaders">Invaders</string>
+    <string name="ship_speep">10</string>
+    <string name="ship_speed1">Set the speed of your ship</string>
+    <string name="bullet_speed1">Set the speed of bullets</string>
+    <string name="bullet_speed">25</string>
+</resources>

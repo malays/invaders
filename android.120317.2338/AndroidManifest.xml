@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="malay.labs">
+  <uses-sdk android:minSdkVersion="7"/>
+  <application android:debuggable="true" android:icon="@drawable/ic_launcher" android:label="Invaders2">
+    <activity android:name="malay.labs.startScreen">        
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <activity android:name="Invaders2"></activity>
+    <activity android:name="level2"></activity>
+    <activity android:name="level3"></activity>       
+  </application>
+</manifest>

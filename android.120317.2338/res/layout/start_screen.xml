@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dimension1"
+        android:gravity="center_horizontal"
+        android:text="@string/invaders"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ff8888ff"
+        android:textSize="36sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimension1"
+        android:gravity="center_horizontal"
+        android:text="@string/ship_speed1"
+        android:textColor="#ff8888ff"
+        android:textSize="24sp"
+        android:visibility="visible" />
+
+    <SeekBar
+        android:id="@+id/shipSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="50"
+        android:progress="10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/bullet_speed1"
+        android:textColor="#ff8888ff"
+        android:textSize="24sp"
+        android:visibility="visible" />
+
+    <SeekBar
+        android:id="@+id/bulletSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="200"
+        android:progress="25" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="105dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dimension1"
+        android:text="Save" />
+
+</LinearLayout>
